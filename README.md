@@ -1,4 +1,4 @@
-Title: CNN-Powered Helmet Detection for Rider Safety and Law Enforcement
+ 🌐︎ CNN-Powered Helmet Detection for Rider Safety and Law Enforcement
 
 Overview: This project uses a Convolutional Neural Network (CNN) to detect whether a motorcycle rider is wearing a helmet or not. The goal is to enhance rider safety and assist in traffic law enforcement through automated image analysis.
 
