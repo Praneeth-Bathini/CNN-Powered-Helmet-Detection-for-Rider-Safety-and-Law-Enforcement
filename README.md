@@ -61,10 +61,10 @@ Aim: this project aims to support smart surveillance systems in promoting road s
 └── demo_images/
  └── helmet_0.jpg # Used in main.py for testing
  
-🎯 What is helmet_model.h5?
-helmet_model.h5 is the trained CNN model file that gets created when you run: python train_model.py
+🎯 What is helmet_model.h5?:
+     helmet_model.h5 is the trained CNN model file that gets created when you run: python train_model.py
 
-🧠 Model Architecture
+🧠 Model Architecture :
 - CNN with 4 Convolution + MaxPooling blocks
 - GlobalAveragePooling and Dense layers
 - Dropout regularization
@@ -72,32 +72,32 @@ helmet_model.h5 is the trained CNN model file that gets created when you run: py
 - Binary Crossentropy Loss
 - Metrics: Accuracy, Precision, Recall, AUC
 
-🛠️ Technologies Used
-Languages: Python
-Libraries: TensorFlow, Keras, OpenCV, NumPy, Matplotlib, scikit-learn, PIL
-Model: CNN-based binary classification
-Tools: VS Code, Jupyter Notebook
+🛠️ Technologies Used :
+  Languages: Python
+  Libraries: TensorFlow, Keras, OpenCV, NumPy, Matplotlib, scikit-learn, PIL
+  Model: CNN-based binary classification
+  Tools: VS Code, Jupyter Notebook
 
-🚀 How to Run
-1️⃣ Train the Model
-Triggers data augmentation → training → model save → demo on sample image : python main.py
-2️⃣ Predict on Test Images
-Place test images inside the test_images/ folder and run: python test_model.py
+🚀 How to Run:
+  1️⃣ Train the Model
+  Triggers data augmentation → training → model save → demo on sample image : python main.py
+  2️⃣ Predict on Test Images
+  Place test images inside the test_images/ folder and run: python test_model.py
 
-✅ Results
-Accuracy: ~95%
-Training time: ~8 minutes on CPU
-Example output:
-Prediction: 0.85 → There is likely driver without helmet!
+✅ Results: 
+  Accuracy: ~95%
+  Training time: ~8 minutes on CPU
+  Example output:
+  Prediction: 0.85 → There is likely driver without helmet!
 
-📈 Results
-Metric	Value:
-  Accuracy	95.6%
-  Precision	94.2%
-  Recall	96.1%
-  AUC	0.98
+📈 Results:
+  Metric	Value:
+    Accuracy	95.6%
+    Precision	94.2%
+    Recall	96.1%
+    AUC	0.98
 
-📚 Referred Articles & Research Papers
+📚 Referred Articles & Research Papers:
 This project is inspired and guided by insights from the following scholarly works and industry articles. They helped shape the architecture, model choice, and problem relevance of our helmet detection system.
 
 1. Motorcycle Rider Helmet Detection for Riding Safety and Compliance Using CNNs (IJCRT)  
