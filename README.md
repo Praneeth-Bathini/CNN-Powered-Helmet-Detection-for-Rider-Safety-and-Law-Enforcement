@@ -135,7 +135,7 @@ Need for data augmentation and optimized CNN architectures (like MobileNet, cust
 Despite helmet laws, enforcement is weak in many states.
 Real-time surveillance systems can support smart city initiatives and road safety missions like India’s Vision Zero.
 
-📌 Project Summary
+📌 Project Summary : 
 The project presents a computer vision-based solution leveraging Convolutional Neural Networks (CNNs) to detect whether motorcycle riders are wearing helmets in real-time or from image data. It aims to enhance road safety, support traffic law enforcement, and reduce fatalities caused by non-compliance with helmet regulations.
 
 Using a publicly available dataset of traffic images, the system is trained to classify images into two categories: Helmet and No Helmet. The images are augmented and preprocessed to ensure better generalization of the model under varying conditions such as lighting, angles, and background noise. A deep learning pipeline is constructed using TensorFlow and Keras libraries, culminating in a CNN model capable of binary classification.
@@ -143,7 +143,7 @@ Using a publicly available dataset of traffic images, the system is trained to c
 The model achieves high accuracy (~95%), and can be integrated with CCTV footage, surveillance drones, or traffic monitoring systems to automatically flag violations or support analytics dashboards for city planners and police departments.
 This system not only automates detection but reduces human effort in video surveillance and acts as a deterrent against traffic violations.
 
-🔮 Future Advancements & Scope for Development
+🔮 Future Advancements & Scope for Development : 
 The current system works well on static images. Here’s how it can be improved and extended in real-world scenarios:
 
 🚦 1. Real-Time Video Integration
@@ -178,7 +178,7 @@ Useful for remote or low-bandwidth regions.
 Integrate blurred face detection to ensure personal privacy is maintained in compliance with data protection laws.
 Store only relevant metadata and violation frames instead of full video feeds.
 
-🛡️ Conclusion
+🛡️ Conclusion :  
 This helmet detection system is a practical, scalable, and socially impactful project that demonstrates how AI can solve real-world safety issues. With further enhancements and support from smart city infrastructure, it can play a vital role in saving lives, enforcing laws, and creating safer roads for all.
 
 🤝 Contributions
