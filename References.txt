@@ -1,0 +1,5 @@
+1) https://www.ijcrt.org/papers/IJCRT24A5159.pdf
+
+2) https://www.researchgate.net/publication/341249291_Automatic_Motorcyclist_Helmet_Rule_Violation_Detection_using_Tensorflow_Keras_in_OpenCV
+
+3) https://www.researchgate.net/publication/352393082_Motorcycle_Rider_Helmet_Detection_for_Riding_Safety_and_Compliance_Using_Convolutional_Neural_Networks

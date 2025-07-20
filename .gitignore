@@ -1,0 +1,7 @@
+# Ignore dataset, model, logs, and cache
+dataset/
+violations/
+*.h5
+__pycache__/
+*.log
+logs/
