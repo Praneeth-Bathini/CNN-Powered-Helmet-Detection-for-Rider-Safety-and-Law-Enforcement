@@ -1,6 +1,7 @@
-OpenCV-python
-tensorflow
-numpy
-matplotlib
-seaborn
-scikit-learn
+numpy~=1.25.0
+matplotlib~=3.7.1
+tensorflow~=2.13.0rc2
+keras~=2.13.1
+Pillow~=9.5.0
+pytest~=8.3.5
+scikit-learn~=1.6.1
