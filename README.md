@@ -77,6 +77,7 @@ Helmet_Detection_Using_CNN
 ## 🚀 How to Run:
   1️⃣ Train the Model
   Triggers data augmentation → training → model save → demo on sample image : python main.py
+  
   2️⃣ Predict on Test Images
   Place test images inside the test_images/ folder and run: python test_model.py
 
@@ -96,15 +97,21 @@ Helmet_Detection_Using_CNN
 ## 📚 Referred Articles & Research Papers:
 This project is inspired and guided by insights from the following scholarly works and industry articles. They helped shape the architecture, model choice, and problem relevance of our helmet detection system.
 
-1. Motorcycle Rider Helmet Detection for Riding Safety and Compliance Using CNNs (IJCRT)  
+1. Motorcycle Rider Helmet Detection for Riding Safety and Compliance Using CNNs (IJCRT)
+   
 Authors: P. Kumar, A. Sharma, et al.
+
 Published: IJCRT, 2024
+
 Summary:
 This research explores the use of Convolutional Neural Networks for detecting helmet usage in real-time. It emphasizes on using transfer learning and augmentation to boost performance on limited datasets. We adopted a similar augmentation-heavy pipeline to improve our model generalization.
 
 2. Motorcycle Rider Helmet Detection for Riding Safety and Compliance Using CNNs (ResearchGate)
+   
 Authors: U. Nayak, K. Vora, et al.
+
 Published: 2021
+
 Summary:
 This paper presented a practical framework for implementing helmet detection systems using CNNs. The emphasis on real-time applicability and use of simple CNN architectures helped us benchmark our initial model design and target accuracy thresholds.
 
@@ -116,19 +123,27 @@ Motorcycle accidents are a major cause of injury and death worldwide. Studies sh
 
 ## 📊 Key Insights from Research
 1. Helmet Usage Reduces Fatalities
+
 According to WHO and national road safety studies, helmets are the single most effective way to prevent head injuries.
+
 Non-helmeted riders are 3x more likely to suffer traumatic brain injuries.
 
 2. Real-Time Monitoring is Essential
+   
 Manual enforcement is limited and inconsistent.
+
 Intelligent Helmet Detection Systems using CNNs and computer vision can help automate monitoring and improve compliance.
 
 3. Challenges Identified
+   
 Low-light conditions, occlusions, camera angles, and image quality affect detection accuracy.
+
 Need for data augmentation and optimized CNN architectures (like MobileNet, custom CNN) for performance.
 
-4. Policy Gaps
+4. Policy Gaps'
+   
 Despite helmet laws, enforcement is weak in many states.
+
 Real-time surveillance systems can support smart city initiatives and road safety missions like India’s Vision Zero.
 
 ## 📌 Project Summary : 
