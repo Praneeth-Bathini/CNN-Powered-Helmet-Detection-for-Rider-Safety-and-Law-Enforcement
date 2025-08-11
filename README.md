@@ -19,47 +19,41 @@ Aim: this project aims to support smart surveillance systems in promoting road s
        No Helmet
     Images are augmented using various transformations like rotation, zoom, brightness adjustment, and flips to enhance model generalization.
     
-📂 Project Structure
-  Helmet_Detection_Using_CNN
-├── config.py # Configuration constants
-
-├── utils.py # Image preprocessing, logging, resizing
-
-├── main.py # Full training pipeline + demo testing
-
-├── test_model.py # Prediction on unseen images (test_images/)
-
-├── test_config.py # Unit test for config file
-
-├── test_utils.py # Unit test for utils
-
-├── test_main.py # Unit test for main model logic
-
-├── requirements.txt # Required Python packages
-
-├── README.md # You're here :)
+## 📂 Project Structure
+<pre>
+Helmet_Detection_Using_CNN
+├── config.py                # Configuration constants
+├── utils.py                 # Image preprocessing, logging, resizing
+├── main.py                  # Full training pipeline + demo testing
+├── test_model.py            # Prediction on unseen images (test_images/)
+├── test_config.py           # Unit test for config file
+├── test_utils.py            # Unit test for utils
+├── test_main.py             # Unit test for main model logic
+├── requirements.txt         # Required Python packages
+├── README.md                # You're here :)
 
 ├── model/
- └── helmet_model.h5 # Trained Keras model
+│   └── helmet_model.h5      # Trained Keras model
 
 ├── source/
- ├── helmet/ # Raw helmet images for augmentation
- └── no_helmet/ # Raw no-helmet images for augmentation
+│   ├── helmet/              # Raw helmet images for augmentation
+│   └── no_helmet/           # Raw no-helmet images for augmentation
 
 ├── training/
- ├── helmet/ # Augmented helmet images
- └── no_helmet/ # Augmented no-helmet images
- 
-├── resized/ # Uniform resized inputs for augmentation
- ├── helmet/
- └── no_helmet/
- 
-├── test_images/ # New images to test the trained model
- ├── helmet1.jpg
- └── no_helmet1.jpg
- 
+│   ├── helmet/              # Augmented helmet images
+│   └── no_helmet/           # Augmented no-helmet images
+
+├── resized/                 # Uniform resized inputs for augmentation
+│   ├── helmet/
+│   └── no_helmet/
+
+├── test_images/             # New images to test the trained model
+│   ├── helmet1.jpg
+│   └── no_helmet1.jpg
+
 └── demo_images/
- └── helmet_0.jpg # Used in main.py for testing
+    └── helmet_0.jpg         # Used in main.py for testing
+</pre>
  
 🎯 What is helmet_model.h5?:
      helmet_model.h5 is the trained CNN model file that gets created when you run: python train_model.py
