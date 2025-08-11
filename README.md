@@ -86,12 +86,15 @@ Helmet_Detection_Using_CNN
 
 ## ✅ Results: 
   Accuracy: ~95%
+  
   Training time: ~8 minutes on CPU
+  
   Example output:
   Prediction: 0.85 → There is likely driver without helmet!
 
 ## 📈 Results:
   Metric	Value:
+  
     Accuracy	95.6%
     Precision	94.2%
     Recall	96.1%
