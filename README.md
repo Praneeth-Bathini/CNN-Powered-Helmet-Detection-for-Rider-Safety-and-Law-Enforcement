@@ -70,8 +70,11 @@ Helmet_Detection_Using_CNN
 
 ## 🛠️ Technologies Used :
   Languages: Python
+  
   Libraries: TensorFlow, Keras, OpenCV, NumPy, Matplotlib, scikit-learn, PIL
+  
   Model: CNN-based binary classification
+  
   Tools: VS Code, Jupyter Notebook
 
 ## 🚀 How to Run:
