@@ -98,8 +98,8 @@ Helmet_Detection_Using_CNN
   
     Accuracy	95.6%
     Precision	94.2%
-    Recall	  96.1%
-    AUC   	  0.98
+    Recall	    96.1%
+    AUC   	    0.98
 
 ## 📚 Referred Articles & Research Papers:
 This project is inspired and guided by insights from the following scholarly works and industry articles. They helped shape the architecture, model choice, and problem relevance of our helmet detection system.
