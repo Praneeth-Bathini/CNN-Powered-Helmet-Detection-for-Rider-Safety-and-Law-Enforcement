@@ -1,10 +1,12 @@
- 🌐︎ CNN-Powered Helmet Detection for Rider Safety and Law Enforcement
+ ## 🌐︎ CNN-Powered Helmet Detection for Rider Safety and Law Enforcement
 
-Overview: This project uses a Convolutional Neural Network (CNN) to detect whether a motorcycle rider is wearing a helmet or not. The goal is to enhance rider safety and assist in traffic law enforcement through automated image analysis.
+## Overview:
+This project uses a Convolutional Neural Network (CNN) to detect whether a motorcycle rider is wearing a helmet or not. The goal is to enhance rider safety and assist in traffic law enforcement through automated image analysis.
 
-Aim: this project aims to support smart surveillance systems in promoting road safety, reducing fatalities, and ensuring legal compliance. It serves as a real-world application of AI in intelligent traffic monitoring and rider protection.
+## Aim:
+this project aims to support smart surveillance systems in promoting road safety, reducing fatalities, and ensuring legal compliance. It serves as a real-world application of AI in intelligent traffic monitoring and rider protection.
 
- 📌 Features
+ ## 📌 Features
 - Real-time helmet detection from images
 - Data augmentation and preprocessing pipeline
 - Trained CNN with high accuracy
@@ -55,10 +57,10 @@ Helmet_Detection_Using_CNN
     └── helmet_0.jpg         # Used in main.py for testing
 </pre>
  
-🎯 What is helmet_model.h5?:
+## 🎯 What is helmet_model.h5?:
      helmet_model.h5 is the trained CNN model file that gets created when you run: python train_model.py
 
-🧠 Model Architecture :
+## 🧠 Model Architecture :
 - CNN with 4 Convolution + MaxPooling blocks
 - GlobalAveragePooling and Dense layers
 - Dropout regularization
@@ -66,32 +68,32 @@ Helmet_Detection_Using_CNN
 - Binary Crossentropy Loss
 - Metrics: Accuracy, Precision, Recall, AUC
 
-🛠️ Technologies Used :
+## 🛠️ Technologies Used :
   Languages: Python
   Libraries: TensorFlow, Keras, OpenCV, NumPy, Matplotlib, scikit-learn, PIL
   Model: CNN-based binary classification
   Tools: VS Code, Jupyter Notebook
 
-🚀 How to Run:
+## 🚀 How to Run:
   1️⃣ Train the Model
   Triggers data augmentation → training → model save → demo on sample image : python main.py
   2️⃣ Predict on Test Images
   Place test images inside the test_images/ folder and run: python test_model.py
 
-✅ Results: 
+## ✅ Results: 
   Accuracy: ~95%
   Training time: ~8 minutes on CPU
   Example output:
   Prediction: 0.85 → There is likely driver without helmet!
 
-📈 Results:
+## 📈 Results:
   Metric	Value:
     Accuracy	95.6%
     Precision	94.2%
     Recall	96.1%
     AUC	0.98
 
-📚 Referred Articles & Research Papers:
+## 📚 Referred Articles & Research Papers:
 This project is inspired and guided by insights from the following scholarly works and industry articles. They helped shape the architecture, model choice, and problem relevance of our helmet detection system.
 
 1. Motorcycle Rider Helmet Detection for Riding Safety and Compliance Using CNNs (IJCRT)  
@@ -107,12 +109,12 @@ Summary:
 This paper presented a practical framework for implementing helmet detection systems using CNNs. The emphasis on real-time applicability and use of simple CNN architectures helped us benchmark our initial model design and target accuracy thresholds.
 
 
-🛡️ Helmet Safety Study Summary :
+## 🛡️ Helmet Safety Study Summary :
 
-📌 Overview
+## 📌 Overview
 Motorcycle accidents are a major cause of injury and death worldwide. Studies show that wearing a helmet reduces the risk of head injury by over 70% and death by 40–50%. Despite laws in many countries, compliance is inconsistent — especially in densely populated regions like India.
 
-📊 Key Insights from Research
+## 📊 Key Insights from Research
 1. Helmet Usage Reduces Fatalities
 According to WHO and national road safety studies, helmets are the single most effective way to prevent head injuries.
 Non-helmeted riders are 3x more likely to suffer traumatic brain injuries.
@@ -129,7 +131,7 @@ Need for data augmentation and optimized CNN architectures (like MobileNet, cust
 Despite helmet laws, enforcement is weak in many states.
 Real-time surveillance systems can support smart city initiatives and road safety missions like India’s Vision Zero.
 
-📌 Project Summary : 
+## 📌 Project Summary : 
 The project presents a computer vision-based solution leveraging Convolutional Neural Networks (CNNs) to detect whether motorcycle riders are wearing helmets in real-time or from image data. It aims to enhance road safety, support traffic law enforcement, and reduce fatalities caused by non-compliance with helmet regulations.
 
 Using a publicly available dataset of traffic images, the system is trained to classify images into two categories: Helmet and No Helmet. The images are augmented and preprocessed to ensure better generalization of the model under varying conditions such as lighting, angles, and background noise. A deep learning pipeline is constructed using TensorFlow and Keras libraries, culminating in a CNN model capable of binary classification.
@@ -137,7 +139,7 @@ Using a publicly available dataset of traffic images, the system is trained to c
 The model achieves high accuracy (~95%), and can be integrated with CCTV footage, surveillance drones, or traffic monitoring systems to automatically flag violations or support analytics dashboards for city planners and police departments.
 This system not only automates detection but reduces human effort in video surveillance and acts as a deterrent against traffic violations.
 
-🔮 Future Advancements & Scope for Development : 
+## 🔮 Future Advancements & Scope for Development : 
 The current system works well on static images. Here’s how it can be improved and extended in real-world scenarios:
 
 🚦 1. Real-Time Video Integration
@@ -172,8 +174,8 @@ Useful for remote or low-bandwidth regions.
 Integrate blurred face detection to ensure personal privacy is maintained in compliance with data protection laws.
 Store only relevant metadata and violation frames instead of full video feeds.
 
-🛡️ Conclusion :  
+## 🛡️ Conclusion :  
 This helmet detection system is a practical, scalable, and socially impactful project that demonstrates how AI can solve real-world safety issues. With further enhancements and support from smart city infrastructure, it can play a vital role in saving lives, enforcing laws, and creating safer roads for all.
 
-🤝 Contributions
+## 🤝 Contributions
 Contributions, issues, and feature requests are welcome! Feel free to fork and submit a pull request.
